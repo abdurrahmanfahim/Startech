@@ -1,0 +1,31 @@
+/* ======== Common Css Start ======== */
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+button {
+    border: 0px transparent;
+    outline: none;
+    color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ======== Common Css End ======== */
