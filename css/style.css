@@ -59,16 +59,16 @@ body {
 /* ======== Common Css End ======== */
 header .top {
     background: #081621;
+    padding: 15px 0;
 }
 
-header .row .col, .col-1, .col-2 , .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, p {
+header .row, .col, .col-1, .col-2 , .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, p {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    letter-spacing: 0.1px;
 }
 
-a {
+.q-action a i {
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -93,7 +93,7 @@ header .search input {
     font-weight: normal;
     border-radius: 4px;
     margin-bottom: 0;
-    width: 580px;
+    width: 573px;
 }
 
 
@@ -114,12 +114,31 @@ input, select, textarea {
     top: 14px;
     border: none;
     background: none;
-    color: red;
+    color: #081621;
 }
 
 .material-icons {
     height: 24px;
     width: 24px;
+}
+
+.blink {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+        color: white
+    }
 }
 
 button {
@@ -140,7 +159,7 @@ h5 {
     color: rgba(255,255,255,.5);
 }
 
-.q-actions .build-pc a.pb {
+.build-pc a {
     color: #fff;
     background: linear-gradient(45deg,#00237e,#3749bb,#0bc1e9,#3749bb,#00237e);
     background-size: 400% 400%;
@@ -148,6 +167,15 @@ h5 {
     border: none;
     line-height: 42px;
     text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px;
 }
 
+.build-pc a:hover {
+    box-shadow: 0 50px rgba(0, 0, 0, .2) inset;
+    color: #fff;
+    text-decoration: none;
+}
 
