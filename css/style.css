@@ -29,3 +29,65 @@ a {
 }
 
 /* ======== Common Css End ======== */
+
+/* ========= Banner Area Start ========= */
+#banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f2f4f8;
+}
+.home{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: nowrap;
+
+}
+.box-area {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 15px 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: #ef4a23;
+    text-align: center;
+    line-height: 50px;
+}
+.icon i{
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+
+.description span {
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.description p {
+    color: #444;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+#notice {
+    padding: 12px 20px 8px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 33px;
+    font-size: 14px;
+    color: #444;
+    min-height: 40px;
+}
+/* ========= Banner Area End ========= */
+
+
