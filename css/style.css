@@ -1,25 +1,11 @@
 /* ======== Common Css Start ======== */
 
-:root {
-    --s-primary: #ef4a23;
-    --s-secondary: #3749bb;
-    --s-hf-bg: #081621;
-    --s-b-bg: #f2f4f8;
-    --s-m-bg: #6e2594;
-    --s-s-bg: rgba(55,73,187,.05);
-    --s-f-c1: #666;
-    --s-f-c2: #fff;
-}
-
 * {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
 
 ul, ol {
     margin-top: 0;
@@ -43,20 +29,10 @@ a {
     text-decoration: none;
 }
 
-body {
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 0.8;
-    color: var(--bs-heading-color);
-}
-
 /* ======== Common Css End ======== */
+
+/* ======== header-top Start ======== */
+
 header .top {
     background: #081621;
     padding: 15px 0;
@@ -130,11 +106,11 @@ input, select, textarea {
     0% {
         opacity: 1.0;
     }
-
+    
     50% {
         opacity: 0.0;
     }
-
+    
     100% {
         opacity: 1.0;
         color: white
@@ -145,7 +121,7 @@ button {
     cursor: pointer;
 }
 
-h5 {
+header h5 {
     font-size: 14px;
     color: #fff;
     font-weight: normal;
@@ -171,6 +147,7 @@ h5 {
     border-radius: 3px;
     font-weight: 600;
     font-size: 13px;
+    transition: all ease 0.4s;
 }
 
 .build-pc a:hover {
@@ -178,4 +155,100 @@ h5 {
     color: #fff;
     text-decoration: none;
 }
+
+
+/* ======== header-top End ======== */
+
+/* ======== nav Start ======== */
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0;
+    vertical-align: 0;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 12.3px;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ef4a23;
+}
+
+.navbar-nav .drop-down li.has-child:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 4px;
+    border-color: transparent transparent transparent var(--s-primary);
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    opacity: .4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== nav End ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
