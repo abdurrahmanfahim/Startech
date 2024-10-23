@@ -92,21 +92,36 @@ a {
     padding: 20px;
 }
 
+/* #product .product-item-img img:hover{
+    opacity: 0.9;
+} */
+
 #product .product-item-details{
     padding: 15px;
 }
 
+#product .product-item-name{
+    height: 75px;
+    margin: 0 0 15px;
+
+}
+
 #product .product-item-name a {
-    margin: 0 15px;
+    
     overflow: hidden;
     box-sizing: border-box;   
 }
 
 #product .product-item-name a h4{
-    color: #111;
-    font-weight: 400;
+    color: #111111;
+    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+}
+
+#product .product-item-name a h4:hover{
+    color: #ef4a23;
+    text-decoration: underline;
 }
 
 #product .product-item-price .new-price{
