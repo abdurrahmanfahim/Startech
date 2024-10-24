@@ -6,7 +6,8 @@
     padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -458,6 +459,172 @@ header h5 {
     color: #666;
     padding-left: 5px;
 }
+/* ======== Common Css End ======== */
+
+/* category section start */
+#category .col-lg-6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#category {
+    background-color: #F2F4F8;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#category .category-header h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#category .category-header p {
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#category .category-lists {
+    padding: 0 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+}
+
+#category .category-lists a {
+    width: 152px;
+    height: 130px;
+    color: #081621;
+
+}
+
+#category .category-lists a p:hover {
+    color: red;
+
+}
+
+#category .category-lists .category-inner {
+    display: block;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 20px 5px;
+}
+
+#category .category-lists .category-inner .icon {
+    padding: 15px;
+
+}
+
+#category .category-lists .category-inner p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    color: #01132d;
+    padding: 15px 5px;
+
+}
+
+#category .store-finder {
+    margin-top: 50px;
+    padding: 30px;
+    background: linear-gradient(125deg, #0bc1e9, #3749bb, #00237e);
+    animation: gradient 15s ease infinite;
+    color: #fff;
+
+}
+
+#category .store-finder .col-lg-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#category .store-finder .col-lg-7 .icon {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+#category .store-finder .col-lg-7 {
+    gap: 20px;
+}
+
+#category .store-finder .text {
+    text-align: left;
+
+}
+
+.store-finder .text h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 5px
+}
+
+.store-finder .text p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff
+}
+
+.store-finder .btn {
+    background: #ef9919;
+    padding: 17px 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    height: auto;
+    border: none;
+    width: fit-content;
+    margin-left: auto;
+    align-items: center;
+}
+
+.store-finder .btn .d-flex {
+    gap: 10px;
+}
+
+#category .store-finder .btn:hover {
+    box-shadow: 0 60px rgba(0, 0, 0, .2) inset
+}
+
+/* category section end */
+
+/* paragraph section start */
+
+#paragraph {
+    background-color: #F2F4F8;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#paragraph h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px 0 12px;
+}
+
+#paragraph p {
+
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px
+}
 
 
 
@@ -465,3 +632,4 @@ header h5 {
 
 /* ======== product css end ======== */
 
+/* paragraph section end */
