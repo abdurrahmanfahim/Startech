@@ -88,7 +88,7 @@ a {
     border-radius: 4px;
     text-overflow: ellipsis;
 }
-.btn {
+.compair_box .btn {
     width: 100%;
     color: #3749bb;
     border: 2px solid #3749bb;
@@ -103,7 +103,7 @@ a {
     text-align: center;
     transition: all 300ms linear;
 }
-.btn:hover{
+.compair_box .btn:hover{
     background: #3749bb;
     color: #fff;
 }
