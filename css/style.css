@@ -477,7 +477,7 @@ header h5 {
 #category {
     background-color: #F2F4F8;
     text-align: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 
@@ -626,7 +626,13 @@ header h5 {
     line-height: 26px
 }
 
-
+#category .category-header h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+}
 
 
 
