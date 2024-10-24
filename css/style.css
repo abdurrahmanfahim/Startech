@@ -6,7 +6,8 @@
     padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -29,3 +30,74 @@ a {
 }
 
 /* ======== Common Css End ======== */
+
+/* category section start */
+#category {
+    background-color: #F2F4F8;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#category .category-header h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#category .category-header p {
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#category .category-lists {
+    padding: 0 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+}
+
+#category .category-lists a {
+    color: #081621;
+    ;
+}
+
+#category .category-lists a:hover {
+    color: red;
+}
+
+#category .category-lists .category-inner {
+    display: block;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 20px 5px;
+}
+
+#category .category-lists .category-inner .icon {
+    padding: 15px;
+
+}
+
+#category .category-lists .category-inner img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#category .category-lists p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 ;
+    color: #01132d;
+    line-height: 26px;
+
+}
+
+/* category section end */
