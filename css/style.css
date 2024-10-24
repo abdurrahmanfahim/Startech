@@ -197,6 +197,10 @@ a {
     line-height: 26px
 }
 
+#paragraph .col-lg-12 span {
+    color: red;
+    cursor: pointer;
+}
 
 
 /* paragraph section end */
