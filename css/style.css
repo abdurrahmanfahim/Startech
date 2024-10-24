@@ -29,3 +29,225 @@ a {
 }
 
 /* ======== Common Css End ======== */
+
+/* ======== header-top Start ======== */
+
+header .top {
+    background: #081621;
+    padding: 15px 0;
+}
+
+header .row, .col, .col-1, .col-2 , .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.1px;
+}
+
+.q-action a i {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: #ef4a23;
+}
+
+.logo img {
+    height: 52px;
+    width: auto;
+    display: inline-block;
+}
+
+
+.ht-item.search {
+    padding: 5px 0;
+    position: relative;
+}
+
+header .search input {
+    border: none;
+    padding: 0 40px 0 20px;
+    font-weight: normal;
+    border-radius: 4px;
+    margin-bottom: 0;
+    width: 573px;
+}
+
+
+input, select, textarea {
+    font-size: 15px;
+    height: 42px;
+    padding: 5px 15px;
+    background: #fff;
+    outline: none;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.ht-item.search button {
+    position: absolute;
+    right: 7px;
+    top: 14px;
+    border: none;
+    background: none;
+    color: #081621;
+}
+
+.material-icons {
+    height: 24px;
+    width: 24px;
+}
+
+.blink {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    
+    50% {
+        opacity: 0.0;
+    }
+    
+    100% {
+        opacity: 1.0;
+        color: white
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+header h5 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ac-content p > a, .ac-content p {
+    font-size: 10px;
+    line-height: 16px;
+    margin: 0;
+    white-space: nowrap;
+    color: rgba(255,255,255,.5);
+}
+
+.build-pc a {
+    color: #fff;
+    background: linear-gradient(45deg,#00237e,#3749bb,#0bc1e9,#3749bb,#00237e);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border: none;
+    line-height: 42px;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all ease 0.4s;
+}
+
+.build-pc a:hover {
+    box-shadow: 0 50px rgba(0, 0, 0, .2) inset;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ======== header-top End ======== */
+
+/* ======== nav Start ======== */
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0;
+    vertical-align: 0;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 12.3px;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ef4a23;
+}
+
+.navbar-nav .drop-down li.has-child:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 4px;
+    border-color: transparent transparent transparent var(--s-primary);
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    opacity: .4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== nav End ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
