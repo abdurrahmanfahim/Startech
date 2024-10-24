@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    color: #F2F4F8;
+}
+
 /* ======== Common Css End ======== */
 
 /* ======== header-top Start ======== */
