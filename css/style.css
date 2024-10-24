@@ -29,3 +29,91 @@ a {
 }
 
 /* ======== Common Css End ======== */
+
+
+/* footer part start */
+#footer{
+    background: #081621;
+    padding: 50px;
+}
+
+.footer_items .contacs h4{
+    text-transform:  uppercase;
+    color: #fff;
+}
+
+
+.btn{
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, .1);
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+   
+}
+
+.cnt_btn p{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    border-left: 1px solid #666;
+    padding: 5px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+}
+.cnt_btn h5{
+    color: #ef4a23;
+}
+.btn:hover{
+    border: 1px solid #ef4a23;
+    background-color:#081621;
+}
+.call{
+    padding-right: 70px;
+}
+
+.footer_list_head{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    list-style: 150%;
+    color: #fff;
+}
+.footer_ul{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.footer_ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #666;
+}
+.footer_links{
+    display: flex;
+    gap: 60px;
+}
+.mail_part h4{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.mail_part h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+.mail_part p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;}
+    
+/* 
+/* footer part end*/
