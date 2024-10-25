@@ -590,6 +590,7 @@ nav {
     width: fit-content;
     margin-left: auto;
     align-items: center;
+    color: #fff;
 }
 
 .store-finder .btn .d-flex {
@@ -605,15 +606,15 @@ nav {
 /* paragraph section start */
 
 #paragraph {
-    margin-top: 50px;
+    margin-top: 25px;
     padding-bottom: 50px;
 
 }
 
 #paragraph h2 {
     color: #000000;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
     margin: 25px 0 12px;
 }
 
