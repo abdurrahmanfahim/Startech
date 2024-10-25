@@ -30,7 +30,7 @@ a {
 }
 
 body {
-    color: #F2F4F8;
+    background: #F2F4F8;
 }
 
 /* ======== Common Css End ======== */
@@ -166,6 +166,10 @@ header h5 {
 
 /* ======== nav Start ======== */
 
+nav {
+    background: #fff;
+}
+
 .dropdown-toggle::after {
     display: none;
     margin-left: 0;
@@ -213,8 +217,6 @@ header h5 {
 /* ========= Banner Area Start ========= */
 #banner{
     padding-top: 50px;
-    padding-bottom: 50px;
-    background: #f2f4f8;
 }
  .compair_box{
     background: #ffe8a1;
@@ -349,7 +351,6 @@ header h5 {
  
 #product{
     padding-top: 50px;
-    background-color: #f2f4f8;
 }
 
 #product .product-head h3 {
@@ -459,7 +460,6 @@ header h5 {
     color: #666;
     padding-left: 5px;
 }
-/* ======== Common Css End ======== */
 
 /* category section start */
 #category .col-lg-6 {
@@ -475,9 +475,8 @@ header h5 {
 
 
 #category {
-    background-color: #F2F4F8;
     text-align: center;
-    /* padding-top: 40px; */
+    margin-top: 40px;
 }
 
 
@@ -591,7 +590,6 @@ header h5 {
     width: fit-content;
     margin-left: auto;
     align-items: center;
-    transition: 0.4s;
 }
 
 .store-finder .btn .d-flex {
@@ -607,13 +605,13 @@ header h5 {
 /* paragraph section start */
 
 #paragraph {
-    background-color: #F2F4F8;
     margin-top: 50px;
     padding-bottom: 50px;
 
 }
 
 #paragraph h2 {
+    color: #000000;
     font-weight: bold;
     font-size: 18px;
     margin: 25px 0 12px;
@@ -627,14 +625,13 @@ header h5 {
     line-height: 26px
 }
 
-#category .category-header h2 {
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #000;
+#paragraph .col-lg-12 span {
+    color: red;
+    cursor: pointer;
 }
 
+
+/* paragraph section end */
 
 
 /* ======== product css end ======== */
