@@ -214,6 +214,56 @@ nav {
 
 /* ======== nav End ======== */
 
+/* ========= Fixed Button Start =========  */
+.f-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+    background: #081621;
+    border: 1px solid rgba(255,255,255,.2);
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 59px;
+    height: 59px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1) , -5px 5px 10px rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+
+.f-btn i {
+    margin: 10px 0 5px;
+}
+
+.f-btn .label {
+    opacity: .8;
+}
+
+.f-btn span.counter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #ef4a23;
+    line-height: 20px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.f-btn.cmpr{
+    bottom: 90px;
+}
+
+/* ========= Fixed Button End =========  */
+
 /* ========= Banner Area Start ========= */
 #banner{
     padding-top: 50px;
