@@ -690,17 +690,24 @@ footer .phone  {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 28px;
     border: 1px solid rgba(255,255,255,.1);
-    padding: 5px 25px;
+    padding: 10px 0;
     border-radius: 2rem;
     width: 275px;
+    height: 70px;
     margin-top: 35px;
     margin-bottom: 20px;
 }
 
 footer .phone:hover {
     border: 1px solid #ff0000;
+}
+
+footer .phone .icon, footer .location .icon {
+    /* height: 100%; */
+    border-right: 1px solid #333;
+    padding:  10px 20px;
+    margin-right: 28px;
 }
 
 
@@ -727,11 +734,13 @@ footer .location  {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 28px;    
     border: 1px solid rgba(255,255,255,.1);
-    padding: 5px 25px;
+    padding: 10px 0;
     border-radius: 2rem;
     width: 275px;
+    height: 70px;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 footer .location:hover {
