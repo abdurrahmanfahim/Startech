@@ -168,6 +168,10 @@ header h5 {
 
 nav {
     background: #fff;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 .dropdown-toggle::after {
@@ -824,9 +828,14 @@ footer .para {
     font-size: 13px;
     width: 210px;
     line-height: 25px;
-
+    /* display: flex;
+    flex-direction: column;
+    gap: 16px; */
 }
 
+footer .para p {
+    padding-bottom: 20px;
+}
 footer .para p:hover {
     color: #ff0412;
     text-decoration: underline;
